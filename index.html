@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denúncia Anônima | Sistema Integrado</title>
+    <!-- Importando o arquivo CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Importando ícones (FontAwesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Barra de Navegação -->
+    <header class="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-shield-halved"></i>
+            <div>
+                <h1>DENÚNCIA ANÔNIMA</h1>
+                <p>SISTEMA INTEGRADO DE SEGURANÇA</p>
+            </div>
+        </div>
+        <nav class="nav-links">
+            <a href="#" class="active"><i class="fa-solid fa-house"></i> Início</a>
+            <a href="#" id="btn-nav-denuncia"><i class="fa-solid fa-bullhorn"></i> Fazer Denúncia</a>
+            <a href="#" id="btn-nav-consulta"><i class="fa-solid fa-magnifying-glass"></i> Consultar Protocolo</a>
+            <a href="#" class="btn-admin"><i class="fa-solid fa-user-shield"></i> Área da Delegacia</a>
+        </nav>
+    </header>
+
+    <!-- Seção Principal (Hero) -->
+    <main class="hero-section">
+        <div class="hero-content">
+            <span class="badge">GARANTIA ABSOLUTA DE SIGILO</span>
+            <h2>Sua identidade preservada,<br>sua voz ouvida.</h2>
+            <p>Canal seguro para registro anônimo de irregularidades, crimes, fraudes e infrações. Ajude as autoridades a manterem a segurança e a justiça.</p>
+            
+            <div class="hero-buttons">
+                <button class="btn-primary" id="btn-registrar">
+                    <i class="fa-solid fa-file-shield"></i> Registrar Denúncia
+                </button>
+                <button class="btn-secondary" id="btn-consultar">
+                    <i class="fa-solid fa-magnifying-glass"></i> Consultar Denúncia
+                </button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <i class="fa-solid fa-user-secret"></i>
+        </div>
+    </main>
+
+    <!-- Seção de Funcionalidades (Cards) -->
+    <section class="features">
+        <div class="card">
+            <div class="icon-wrapper blue">
+                <i class="fa-solid fa-user-slash"></i>
+            </div>
+            <h3>100% Anônimo</h3>
+            <p>Não solicitamos CPF, nome, e-mail ou qualquer dado pessoal. O sistema não captura seu endereço IP.</p>
+        </div>
+        
+        <div class="card">
+            <div class="icon-wrapper yellow">
+                <i class="fa-solid fa-key"></i>
+            </div>
+            <h3>Acompanhamento Seguro</h3>
+            <p>Você receberá um Protocolo e uma Chave de Acesso exclusiva após o envio para consultar o andamento.</p>
+        </div>
+        
+        <div class="card">
+            <div class="icon-wrapper green">
+                <i class="fa-solid fa-building-shield"></i>
+            </div>
+            <h3>Encaminhamento Oficial</h3>
+            <p>As denúncias são direcionadas às delegacias e setores especializados para apuração e investigação.</p>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <p>Sistema Web de Denúncias Anônimas © 2026</p>
+        <p>Protótipo Acadêmico desenvolvido para Simulação de Gestão e Segurança Pública.</p>
+    </footer>
+
+    <!-- Importando o arquivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
